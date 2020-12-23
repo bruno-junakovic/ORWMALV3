@@ -1,0 +1,38 @@
+ol {
+  border: 2px solid black;
+  width: 250px;
+  padding: 5px;
+  list-style-position: inside;
+}
+
+ol li {
+  padding: 3px;
+  padding-left: 34px;
+}
+
+ol li[lang="en-GB"] {
+  background: url(./en-GB.png) 5px center no-repeat rgba(0, 255, 0, 0.5);
+}
+
+ol li[lang="de"] {
+  background: url(./de.png) 5px center no-repeat rgba(255, 0, 0, 0.5);
+}
+
+ol li[lang="es"] {
+  background: url(./es.png) 5px center no-repeat rgba(0, 0, 255, 0.5);
+}
+
+ol li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-transform: uppercase;
+  color: red;
+  text-decoration: underline;
+}
